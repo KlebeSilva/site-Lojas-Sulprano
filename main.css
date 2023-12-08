@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Martel', serif;
+}
+
+header {
+    background-color: #daa520;
+    color: rgb(235, 230, 230);
+}
+
+body {
+    height: 300px;
+    background-color: rgba(255, 251, 0, 0.116);
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#foto-back {
+    width: 100%;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+}
+
+header nav li{
+    display: inline;
+}
+
+header, h2, h3 {
+    font-family: 'Cinzel', serif;
+}
+
+h2, h3 {
+    color: #daa520;
+}
+
+h1 {
+    font-size: 45px;
+    color: rgba(3, 3, 3, 0.938);
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: 46px;
+}
+
+.forma {
+    text-indent: 16px;
+}
+
+.forma p {
+    font-size: 20px;
+}
+
+#sub {
+    margin-bottom: 16px;
+}
+
+header nav li a {
+    padding: 8px;
+    font-size: 20px;
+    color: rgba(3, 3, 3, 0.938);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.store-front {
+    width: 500px;
+    height: 450px;
+    margin-right: 20px;
+}
+
+#sobre .container {
+    margin-top: 20px;
+}
+
+section .container {
+    align-items: start;
+}
+
+section p {
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 350px;
+    padding: 6px;
+    margin-bottom: 6px;
+    color:rgba(3, 3, 3, 0.938);
+    background-color: rgba(255, 251, 0, 0);
+}
+
+#contact .container {
+    display: block;
+}
+
+section ul img {
+    width: 42px;
+}
+
+#links-s li {
+    display: inline;
+    margin: 12px;
+    align-items: center;
+}
+
+#links-s ul li a {
+    text-decoration: none;
+}
+
+.bloco-fale {
+    display: flex;
+    justify-content:space-between;
+}
+
+form button {
+    background-color: #daa520;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgba(3, 3, 3, 0.938);
+}
+
+form button:hover {
+    background-color: #c5a961;
+}
+
+form textarea {
+    resize: none;
+    height: 140px;
+}
+
+input:focus, textarea:focus {
+    outline-color: #daa520;
+}
+
+footer {
+    background-color: #daa520;
+    padding: 16px 0;
+}
